@@ -16,11 +16,8 @@ export default class Events extends Component {
           <EventBaner />
         </div>
 
-
-
-
-
         <div className="actual-events">
+          
           <div className="filter-list">
             <h1>Фильтр</h1>
             <form className='filter' action="submit">
@@ -28,8 +25,6 @@ export default class Events extends Component {
               <p><input type="checkbox" name="Прошло" id="" />Прошло</p>
             </form>
           </div>
-
-
 
           <div className="event-blok">
             <form className='event-search' action="">
