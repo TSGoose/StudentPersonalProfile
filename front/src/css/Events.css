@@ -8,7 +8,74 @@
     box-shadow: 0 0 50px #0000001f;
 }
 
-.event-list{
+.event-title {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
     display: flex;
+    margin-bottom: 20px;
+}
+
+.event-title h1 {
+    font-size: 70px;
+}
+
+.event-blok{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.event-search{
+    width: 100%;
+    position: relative;
+}
+
+.event-search input {
+    height: 35px;
+    color: #1457D2;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #D2DFF7;
+    border: 4px solid #1457D2;
+    border-radius: 30px;
+
+    width: 93%;
+    padding: 0 50px 0 10px;
+    
+}
+
+.event-search input::placeholder{
+    color: #1457D2;
+    margin: 20px;
+}
+
+.event-search i{
+    color: #1457D2;
+    font-size: 30px;
+    position: absolute;
+    top: 15%;
+    right: 1%;
+}
+
+.event-list {
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+
+}
+
+.filter-list {
+    background-color: aqua;
+    width: 45%;
+    margin-right: 1px;
+    margin-top: 10px;
+}
+
+.actual-events {
+    padding: 25px;
+    display: flex;
+
 }

@@ -49,7 +49,7 @@ export default class Profile extends Component {
 
                             
                         </Routes>
-
+            
                         <MainInfo />                        
                     </div>
                 </div>

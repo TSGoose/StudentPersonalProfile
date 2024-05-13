@@ -1,25 +1,28 @@
-.event-card{
+.event-card {
     position: relative;
-    width: 280px;
+    width: 250px;
     height: 420px;
-    background-color: aqua;
-    margin: 20px;
+    background-color: #D2DFF7;
+    margin-top: 20px;
     padding: 20px;
     border-radius: 20px;
-    
+
 }
 
-.card-img{
+.card-img {
     width: 100%;
     border-radius: 20px;
 }
 
-.event-card h1{
-    font-size: 20px;
+.event-card h1 {
+    font-size: 22px;
+    padding-top: 20px;
 }
 
-.card-discription{
+.card-discription {
     position: absolute;
-    width: 100%;
+    width: 88%;
     bottom: 20px;
+    font-size: 20px;
+    color: #1457D2;
 }

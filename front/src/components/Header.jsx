@@ -9,7 +9,7 @@ export default class Header extends Component {
                 <div className="user-name"><Link to="profile">Иванов И. И.</Link></div>
 
                 <form className="search-box" action="">
-                    <input type="text" placeholder='Поск' />
+                    <input type="text" placeholder='Поиск' />
                     <i className='bx bx-search-alt'></i>
                 </form>
 
