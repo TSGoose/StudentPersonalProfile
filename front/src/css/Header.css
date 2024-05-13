@@ -1,0 +1,84 @@
+.header {
+    height: 100px;
+    background-color: #1457D2;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 15%;
+    box-shadow:  50px 50px 0px #0000001f;
+}
+
+
+.user-name{
+    font-size: 30px;
+    
+}
+
+.user-name a{
+    color: #fff;
+    text-decoration: none
+}
+
+.user-name a:hover{
+    text-decoration: underline;
+}
+
+.search-box{
+    position: relative;
+    min-width: 100px;
+    width: 20%;
+    height: 42px;
+
+    display: flex;
+    
+}
+
+.search-box input{
+    width: 100%;
+    padding: 0 50px 0 10px;
+
+    color: #fff;
+    font-size: 20px;
+    background-color: #1457D2;
+    border: none;
+    outline: none;
+    border: 4px solid #fff;
+    border-radius: 30px;
+}
+
+.search-box input::placeholder{
+    color: #fff;
+}
+
+.search-box i{
+    position: absolute;
+    right: 15px;
+    top: 20%;
+    font-size: 30px;
+}
+
+.links{
+    width: 50%;
+    min-width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.links a{
+    font-weight: 700;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.links a:hover{
+    text-decoration: underline;
+}
