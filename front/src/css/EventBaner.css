@@ -1,0 +1,44 @@
+.event-baner{
+    margin: auto;
+    padding: 25px;
+    height: 100%;
+    width: 60vw;
+    background-color: #D2DFF7;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.baner-event-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #1457D2;
+    width: 45%;
+    margin-right: 25px;
+}
+
+.baner-event-info h1{
+    font-size: 40px;
+}
+
+.baner-discription{
+    position: absolute;
+    bottom: 0;
+    color: black;
+    width: 100%;
+    font-size: 30px;
+}
+
+.btn{
+    width: 100%;
+}
+
+
+
+
+
+#pupa{
+    border-radius: 20px;
+}

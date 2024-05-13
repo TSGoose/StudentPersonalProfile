@@ -1,0 +1,76 @@
+.profil{
+    padding: 2.5vw ;
+    display: flex;
+    height: 100%;
+    max-width: 70vw;
+    margin: 0 15%;
+    background-color: #fff;
+    justify-content: space-around;
+    box-shadow:  0 0 50px #0000001f;
+
+}
+
+.profil-links{
+    width: 300px;
+    background-color: #D2DFF7;
+    margin-right: 20px;
+    border-radius: 30px;
+    border: 3px solid #1457D2;
+}
+
+.main-data{
+    display: flex;
+    color: #1457D2;
+    width: 47vw;
+}
+
+.user-icon{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: #1457D2;
+    border-radius: 100px;
+    
+}
+
+.user-icon p{
+    position: absolute;
+    color: #fff;
+    font-size: 70px;
+    top: 30%;
+    left: 25%;
+}
+
+.user-full-name{
+    font-size: 30px;
+    padding: 64px 10px;
+}
+
+.user-full-name h1{
+    margin-bottom: 10px;
+}
+
+.other-data{
+    margin-top: 20px;
+    
+    font-size: 25px;
+}
+
+.info-string{
+    padding-top: 15px;
+}
+
+.string-name{
+    
+    padding: 4px 10px;
+    font-size: 20px;
+    color: #1457D2;
+}
+
+.string{
+    width: 100%;
+    background-color: #D2DFF7;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 3px solid #1457D2;
+}
