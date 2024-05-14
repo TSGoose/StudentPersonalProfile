@@ -17,7 +17,8 @@ public class StudentService {
     private StudentRepository studentRepository;
 
     public Student findByNumber(String number){
-        return studentRepository.findByNumber(number).orElseThrow(() -> new RuntimeException("Student not found"));
+        System.out.println(number);
+        return studentRepository.findByNumber(number).get(0);
     }
 
     public Student save(Student student){

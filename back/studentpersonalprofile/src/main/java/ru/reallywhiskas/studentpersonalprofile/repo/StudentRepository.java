@@ -5,10 +5,11 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 import ru.reallywhiskas.studentpersonalprofile.domain.Student;
 
+import java.util.List;
 import java.util.Optional;
 
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long> {
-    //@Query("SELECT u FROM student u WHERE u.number = ?1")
-    Optional<Student> findByNumber(String number);
+
+    List<Student> findByNumber(String number);
 }
