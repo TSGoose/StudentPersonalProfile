@@ -1,28 +1,25 @@
 import React, { Component } from 'react'
 import Header from "./Header"
-import Footer from "./Footer"
 import Profile from "./Profile"
 import Table from "./Table"
 import Events from "./Events"
 import Error from "./Error"
 
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, Outlet} from "react-router-dom"
+import MainInfo from './MainInfo'
+import SocialLife from './SocialLife'
+import Footer from './Footer'
 
 export default class Student extends Component {
   render() {
     return (
       <>
-        <Header />      
-      <div className="content">
-      <Routes>
-        <Route path="/" element={<Table />}/>
-        <Route path="/profile/*" element={<Profile />}/>
-        <Route path="/events" element={<Events />}/>
-        <Route path="*" element={<Error />}/>
+        <Header />
+        <div className="content">
+            <Outlet/>
+            <Footer />
+        </div>
 
-      </Routes>
-        <Footer />
-      </div>
       </>
     )
   }

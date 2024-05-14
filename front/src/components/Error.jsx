@@ -1,8 +1,9 @@
 import React from 'react'
+import '../css/Error.css'
 
 export default function Error() {
   return (
-    <div style={{justifySelf: 'center', fontSize: '200px'}}> 
+    <div className="errorr" style={{}}> 
       ERROR 404
     </div>
   )

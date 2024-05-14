@@ -3,7 +3,7 @@ import '../css/Profile.css'
 import MainInfo from './MainInfo'
 import SocialLife from './SocialLife'
 
-import { Route, Routes } from "react-router-dom"
+import { Link, Outlet, Route, Routes } from "react-router-dom"
 
 
 export default class Profile extends Component {
@@ -25,10 +25,10 @@ export default class Profile extends Component {
             <div className="profil">
                 <div className="profil-links">
                     <h1>Профиль</h1>
-                    <p><a href="#">Основная ифнормация</a></p>
-                    <p><a href="#">Социальные сети</a></p>
-                    <p><a href="#">Посещённые мероприятия</a></p>
-                    <p><a href="#">Достижения</a></p>
+                    <p><Link to="main-info">Основная ифнормация</Link></p>
+                    <p><Link to="social-life">Социальные сети</Link></p>
+                    <p><Link to="#">Посещённые мероприятия</Link></p>
+                    <p><Link to="#">Достижения</Link></p>
                 </div>
 
                 <div className="user-data">
@@ -43,14 +43,7 @@ export default class Profile extends Component {
                     </div>
 
                     <div className="other-data">
-                        <Routes>
-                            <Route to="/profile" element={<MainInfo />}/>
-                            <Route to="/profile/sociallife" element={<MainInfo />}/>
-
-                            
-                        </Routes>
-            
-                        <MainInfo />                        
+                    <Outlet />                      
                     </div>
                 </div>
             </div>

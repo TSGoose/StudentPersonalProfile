@@ -10,6 +10,7 @@ import HeaderAdmin from './Admin/HeaderAdmin'
 import AddEvent from './Admin/AddEvent'
 import RegistrateStudent from './Admin/RegistrateStudent'
 import RegistrateTeacher from './Admin/RegistrateTeacher'
+import { Outlet } from 'react-router-dom'
 
 export default class Admin extends Component {
   render() {
@@ -17,14 +18,8 @@ export default class Admin extends Component {
         <>
         <HeaderAdmin />      
       <div className="content">
-      <Routes>
-        <Route path="/registration" element={<RegistrateStudent />}/>
-        <Route path="/create_event" element={<AddEvent />}/>
-        <Route path="/events" element={<Events />}/>
-        <Route path="*" element={<Error />}/>
-
-      </Routes>
-        <Footer />
+      <Outlet />
+      <Footer />
       </div>
       </>
     )

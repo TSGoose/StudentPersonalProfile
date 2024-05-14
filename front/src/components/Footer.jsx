@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "../css/Footer.css"
+import { Link } from 'react-router-dom'
 
 export default class Footer extends Component {
   render() {
@@ -11,10 +12,10 @@ export default class Footer extends Component {
             <p className='title'><a href="#">На сайт СГТУ</a></p>
             <p className='discription'>Мы в других соцсетях:</p>
 
-            <a href='#' rel="noopener noreferrer"><i className='bx bxl-vk'></i></a>
-            <a href='#' rel="noopener noreferrer"><i className='bx bxl-telegram' ></i></a>
-            <a href='#' rel="noopener noreferrer"><i className='bx bxl-youtube' ></i></a>
-            <a href='#' rel="noopener noreferrer"><i className='bx bxl-ok-ru' ></i></a>
+            <Link to='/student' rel="noopener noreferrer"><i className='bx bxl-vk'></i></Link>
+            <Link to='/admin' rel="noopener noreferrer"><i className='bx bxl-telegram' ></i></Link>
+            <Link to='#' rel="noopener noreferrer"><i className='bx bxl-youtube' ></i></Link>
+            <Link to='#' rel="noopener noreferrer"><i className='bx bxl-ok-ru' ></i></Link>
 
           </div>
 

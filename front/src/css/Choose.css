@@ -1,0 +1,6 @@
+.panel{
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    font-size: 20px;
+}
