@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 import ru.reallywhiskas.studentpersonalprofile.domain.Student;
 import ru.reallywhiskas.studentpersonalprofile.repo.StudentRepository;
 
+import java.util.List;
+
 @Service
 @RequiredArgsConstructor
 @Slf4j
@@ -15,6 +17,10 @@ import ru.reallywhiskas.studentpersonalprofile.repo.StudentRepository;
 public class StudentService {
     @Autowired
     private StudentRepository studentRepository;
+
+    public List<Student> findAll(){
+        return studentRepository.findAll();
+    }
 
     public Student findByNumber(String number){
         System.out.println(number);
