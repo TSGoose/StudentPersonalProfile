@@ -5,6 +5,29 @@ import EventButton from './EventButton'
 import '../css/Events.css'
 
 export default class Events extends Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+       error: null,
+       isLoaded: false,
+       events: []
+    };
+  }
+   componentDidMount(){
+    fetch("/events")
+    .then(res => res.json())
+    .then(
+      (result) => {
+        this.useState({
+          isLoaded: true,
+          events: result.event
+        });
+      }
+    )
+   }
+
+  
   render() {   
 
     return (

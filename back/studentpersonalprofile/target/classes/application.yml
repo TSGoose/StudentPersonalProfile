@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/profiledb
+    url: jdbc:postgresql://localhost:6450/profiledb
     username: postgres
-    password: admin
+    password: LevChiC1
   jpa:
     database-platform: org.hibernate.dialect.PosgreSQLInnoDBDialect
     generate-ddl: true
