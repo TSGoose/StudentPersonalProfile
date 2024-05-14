@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../../css/AdminCss/RegistrateTeacher.css'
+import '../../css/AdminCss/Registrate.css'
 
 export default class RegistrateTeacher extends Component {
     render() {
@@ -14,11 +14,12 @@ export default class RegistrateTeacher extends Component {
                         <p><input className='data' id='InstituteTeacher' type="text" placeholder='Введите институт преподавателя' /></p>
                         <p><input className='data' id='DepartmentTeacher' type="text" placeholder='Введите кафедру преподавателя' /></p>
 
-                        <button className='next-btn' type='submit'>Зарегистрировать</button>
+                        
                     </form>
 
                 
                 </div>
+                <button className='next-btn' type='submit'>Зарегистрировать</button>
 
             </div>
         )

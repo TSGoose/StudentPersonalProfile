@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 2.5vw;
-    height: 100%;
-    max-width: 70vw;
+    height: 70%;
     margin: 0 15%;
     box-shadow: 0 0 50px #0000001f;
     text-align: center;
@@ -16,12 +15,14 @@
 }
 
 .reg-form {
+    gap: 20px;
     margin: auto;
-    width: 40%;
+    width: 70%;
 }
 
+
 .registration-form {
-    margin-top: 109px;
+    width: 100%;
     text-align: start;
 }
 
@@ -61,7 +62,6 @@
 
 
 .next-btn {
-    width: 100%;
     height: 50px;
     margin-top: 20px;
     border: none;
@@ -70,6 +70,8 @@
     font-size: 30px;
     color: #fff;
     transition: 0.5s;
+    align-self: center;
+    width: 50%;
 }
 
 .next-btn:hover {
@@ -77,3 +79,47 @@
     color: #1457D2;
 
 }
+
+.reg-form {
+    display: flex;
+    justify-content: space-between;}
+
+.left-form {
+    width: 40%;
+    height: auto;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.add-event-img {
+    height: 45%;
+    background-color: #D2DFF7;
+    border: 3px solid #1457D2;
+    border-radius: 30px;
+    color: #1457D2;
+    font-size: 20px;
+}
+
+.add-event-discription {
+    height: 45%;
+    background-color: #D2DFF7;
+    color: #1457D2;
+    font-size: 20px;
+    padding: 0 20px;
+    border: 3px solid #1457D2;
+    border-radius: 30px;
+    outline: none;
+}
+
+.add-event-discription::placeholder{
+    color: #1457D2;
+}
+
+.next-btn{
+    align-self: center;
+    width: 50%;
+}
+

@@ -3,7 +3,6 @@
     flex-direction: column;
     padding: 2.5vw;
     height: 100%;
-    max-width: 70vw;
     margin: 0 15%;
     box-shadow: 0 0 50px #0000001f;
     text-align: center;
@@ -17,7 +16,7 @@
 
 .reg-form {
     margin: auto;
-    width: 40%;
+    width: 70%;
 }
 
 .registration-form {

@@ -16,12 +16,11 @@ export default class Registrate extends Component {
 
 
 
-                        <button className='next-btn' type='submit'>Далее</button>
+                      
                     </form>
-
                 
                 </div>
-
+                <button className='next-btn' type='submit'>Далее</button>
             </div>
         )
     }

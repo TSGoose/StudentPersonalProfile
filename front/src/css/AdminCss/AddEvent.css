@@ -1,0 +1,43 @@
+.reg-form {
+    display: flex;
+    justify-content: space-between;}
+
+.left-form {
+    width: 40%;
+    height: auto;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.add-event-img {
+    height: 45%;
+    background-color: #D2DFF7;
+    border: 3px solid #1457D2;
+    border-radius: 30px;
+    color: #1457D2;
+    font-size: 20px;
+}
+
+.add-event-discription {
+    height: 45%;
+    background-color: #D2DFF7;
+    color: #1457D2;
+    font-size: 20px;
+    padding: 0 20px;
+    border: 3px solid #1457D2;
+    border-radius: 30px;
+    outline: none;
+}
+
+.add-event-discription::placeholder{
+    color: #1457D2;
+}
+
+.next-btn{
+    align-self: center;
+    width: 50%;
+}
+
