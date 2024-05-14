@@ -1,0 +1,80 @@
+
+.timetable-big-title {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+.timetable-pos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.timetable-week{
+    padding-top: 7px;
+    background-color: #1457D2;
+    width: 1304px;
+    height: 65px;
+    padding-left: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}    
+.timetable-day{
+    color: #ffffff;
+    border-color: #ffffff;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 56px;
+    text-align: center;
+}
+.timetable-day p{
+    padding-top: 7px;
+}
+.timetable-border{
+    border-collapse: collapse;
+    border: 1px solid #1457D2;
+    margin-bottom: 20px;
+}
+.timetable-title {
+    border: 1px solid #ffffff;
+}
+.timetable {
+    border: 1px solid #1457D2;
+}
+.timetable-tabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.timetable-tabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.timetable-title {
+    background-color: #1457D2;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.timetable{
+    text-align: center;
+    color: #1457D2;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 200px;
+}
