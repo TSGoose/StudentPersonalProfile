@@ -1,0 +1,79 @@
+.new-user-registration {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5vw;
+    height: 100%;
+    max-width: 70vw;
+    margin: 0 15%;
+    box-shadow: 0 0 50px #0000001f;
+    text-align: center;
+
+}
+
+.new-user-registration h1 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.reg-form {
+    margin: auto;
+    width: 40%;
+}
+
+.registration-form {
+    margin-bottom: 109px;
+    text-align: start;
+}
+
+.data {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: 3px solid #1457D2;
+    outline: none;
+    color: #1457D2;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #D2DFF7;
+    padding: 0 20px;
+}
+
+.data::placeholder {
+    color: #1457D2;
+    font-size: 20px;
+}
+
+
+.status-check {
+    font-size: 30px;
+    color: #1457D2;
+    margin-bottom: 20px;
+}
+
+.status-check input {
+    cursor: pointer;
+    padding: 0px 15px;
+    line-height: 34px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    user-select: none;
+}
+
+
+.next-btn {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    background-color: #1457D2;
+    border-radius: 30px;
+    font-size: 30px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.next-btn:hover {
+    background-color: #D2DFF7;
+    color: #1457D2;
+
+}
