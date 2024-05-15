@@ -1,0 +1,58 @@
+.education-big-title {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+.education-title-1{
+    background-color: #1457D2;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.education-tabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.education-tabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.education-title {
+    background-color: #1457D2;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.education{
+    text-align: center;
+    color: #1457D2;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 200px;
+}
+.education-1{
+    text-align: center;
+    color: #1457D2;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60px;
+}
