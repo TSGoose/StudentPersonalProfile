@@ -23,7 +23,71 @@ export default class Education extends Component {
                 <td className='education'>ОТЛ</td>
                 <td className='education'>15.05.2024</td>
                 <td className='education'>Попова А.А</td>
+            </tr>
 
+            <tr>
+                <td className='education-1'>2</td>
+                <td className='education'>Физика</td>
+                <td className='education'>180/5</td>
+                <td className='education'>ОТЛ</td>
+                <td className='education'>15.05.2024</td>
+                <td className='education'>Попова А.А</td>
+            </tr>
+            <tr>
+                <td className='education-1'>2</td>
+                <td className='education'>Физика</td>
+                <td className='education'>180/5</td>
+                <td className='education'>ОТЛ</td>
+                <td className='education'>15.05.2024</td>
+                <td className='education'>Попова А.А</td>
+            </tr>
+            <tr>
+                <td className='education-1'>2</td>
+                <td className='education'>Физика</td>
+                <td className='education'>180/5</td>
+                <td className='education'>ОТЛ</td>
+                <td className='education'>15.05.2024</td>
+                <td className='education'>Попова А.А</td>
+            </tr>
+            <tr>
+                <td className='education-1'>2</td>
+                <td className='education'>Физика</td>
+                <td className='education'>180/5</td>
+                <td className='education'>ОТЛ</td>
+                <td className='education'>15.05.2024</td>
+                <td className='education'>Попова А.А</td>
+            </tr>
+            <tr>
+                <td className='education-1'>2</td>
+                <td className='education'>Физика</td>
+                <td className='education'>180/5</td>
+                <td className='education'>ОТЛ</td>
+                <td className='education'>15.05.2024</td>
+                <td className='education'>Попова А.А</td>
+            </tr>
+            <tr>
+                <td className='education-1'>2</td>
+                <td className='education'>Физика</td>
+                <td className='education'>180/5</td>
+                <td className='education'>ОТЛ</td>
+                <td className='education'>15.05.2024</td>
+                <td className='education'>Попова А.А</td>
+            </tr>
+            <tr>
+                <td className='education-1'>2</td>
+                <td className='education'>Физика</td>
+                <td className='education'>180/5</td>
+                <td className='education'>ОТЛ</td>
+                <td className='education'>15.05.2024</td>
+                <td className='education'>Попова А.А</td>
+            </tr>
+            <tr>
+                <td className='education-1'>2</td>
+                <td className='education'>Физика</td>
+                <td className='education'>180/5</td>
+                <td className='education'>ОТЛ</td>
+                <td className='education'>15.05.2024</td>
+                <td className='education'>Попова А.А</td>
             </tr>
           </table>
         </div>

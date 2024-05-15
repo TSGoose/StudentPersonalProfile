@@ -15,9 +15,9 @@ export default class Header extends Component {
 
                 <div className="links">
                     <Link to="rasp">РАСПИСАНИЕ</Link>
-                    <Link to="events">МЕРОПРИЯТИЯ</Link>
+                    <Link to="event-list">МЕРОПРИЯТИЯ</Link>
                     <Link to="messenger">ЧАТ</Link>
-                    <Link to="uspevaemost">УСПЕВАЕМОСТЬ</Link>
+                    <Link to="education">УСПЕВАЕМОСТЬ</Link>
                 </div>
             </div>
         )

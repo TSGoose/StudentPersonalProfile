@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../css/Table.css'
+import '../../css/Table.css'
 
 export default class Table extends Component {
   render() {
@@ -41,35 +41,35 @@ export default class Table extends Component {
                 <td className='timetable-title'>Кабинет</td>
                 <td className='timetable-title'>Предмет</td>
                 <td className='timetable-title'>Формат</td>
-                <td className='timetable-title'>Преподаватель</td>
+                <td className='timetable-title'>Группа</td>
             </tr>
             <tr>
                 <td className='timetable'>8.00-9.30</td>
                 <td className='timetable'>5/112</td>
                 <td className='timetable'>Технология программирование</td>
                 <td className='timetable'>(прак)</td>
-                <td className='timetable'>Файфель Борис Леонидович</td>
+                <td className='timetable'>Б1-ИФСТ-11</td>
             </tr>
             <tr>
                 <td className='timetable'>9.45-11.15</td>
                 <td className='timetable'>5/112</td>
                 <td className='timetable'>Технология программирование</td>
                 <td className='timetable'>(прак)</td>
-                <td className='timetable'>Файфель Борис Леонидович</td>
+                <td className='timetable'>Б1-ИФСТ-11</td>
             </tr>
             <tr>
                 <td className='timetable'>11.30-13.0</td>
                 <td className='timetable'>СЗ-1</td>
-                <td className='timetable'>Игровые виды спорта</td>
+                <td className='timetable'>Информационные технологии</td>
                 <td className='timetable'>(прак)</td>
                 <td className='timetable'>Гордеев Игорь Николаевич</td>
             </tr>
             <tr>
                 <td className='timetable'>13.40-15.10</td>
                 <td className='timetable'>1/201</td>
-                <td className='timetable'>Веб-разработка</td>
+                <td className='timetable'>Технология программирование</td>
                 <td className='timetable'>(лекц)</td>
-                <td className='timetable'>Кушникова Елева Вадимовна</td>
+                <td className='timetable'>Б1-ИФСТ-11, Б1-ИФСТ-12, Б1-ИФСТ-13, Б1-ИФСТ-14, Б1-ИФСТ-15</td>
             </tr>
 
           </table>

@@ -1,11 +1,12 @@
 .new-user-registration {
     display: flex;
     flex-direction: column;
-    padding: 2.5vw;
     height: 70%;
+    padding: 104px 0;
     margin: 0 15%;
     box-shadow: 0 0 50px #0000001f;
     text-align: center;
+
 
 }
 
@@ -82,7 +83,8 @@
 
 .reg-form {
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+}
 
 .left-form {
     width: 40%;
@@ -114,12 +116,11 @@
     outline: none;
 }
 
-.add-event-discription::placeholder{
+.add-event-discription::placeholder {
     color: #1457D2;
 }
 
-.next-btn{
+.next-btn {
     align-self: center;
     width: 50%;
 }
-

@@ -16,7 +16,7 @@ export default class HeaderAdmin extends Component {
                 <div className="links">
                     <Link to="registration">ЗАРЕГЕСТРИРОВАТЬ</Link>
                     <Link to="create_event">СОЗДАТЬ</Link>
-                    <Link to="events">МЕРОПРИЯТИЯ</Link>
+                    <Link to="event-list">МЕРОПРИЯТИЯ</Link>
                 </div>
             </div>
         )

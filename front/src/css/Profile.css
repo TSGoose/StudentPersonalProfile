@@ -10,18 +10,42 @@
 
 }
 
+.user-data h2{
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .profil-links{
-    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    font-size: 30px;
+    height: 80px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    width: 100%px;
     background-color: #D2DFF7;
     margin-right: 20px;
     border-radius: 30px;
-    border: 3px solid #1457D2;
+}
+
+.profil-links a{
+    text-decoration: none;
+    color: #1457D2;
+}
+
+.profil-links a.active{
+    color: black;
+    text-decoration: underline;
 }
 
 .main-data{
     display: flex;
     color: #1457D2;
-    width: 47vw;
+    width: 100%;
+    align-items: center;
 }
 
 .user-icon{

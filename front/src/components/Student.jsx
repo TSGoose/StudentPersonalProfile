@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Header from "./Header"
 import Profile from "./Profile"
 import Table from "./Table"
-import Events from "./Events"
 import Error from "./Error"
 
 import { Route, Routes, Outlet} from "react-router-dom"

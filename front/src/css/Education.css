@@ -4,7 +4,7 @@
     gap: 20px;
     width: 100%;
     display: flex;
-    margin-bottom: 20px;
+    margin: 100px 0 20px;
     font-size: 70px;
 }
 .education-title-1{
@@ -27,7 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 134px;
 }
 .education-title {
     background-color: #1457D2;

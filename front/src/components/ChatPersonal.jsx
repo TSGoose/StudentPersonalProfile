@@ -5,11 +5,11 @@ export default class ChatPersonal extends Component {
   render() {
     return (
       <>
-      	
-        
-        <div className='Chat-pers'>
-            <div className='user-icon-chat'><p>ИВ</p></div>
-            <div className='user-name-chat'><h1>Иван Иванов</h1></div>
+        <div className='chat-pers'>
+          <div className="user-icon-chat">
+            <p>{this.props.icon}</p>
+          </div>
+          <h1 className='user-name-chat'>{this.props.name}</h1>
         </div>
         <hr className='line-chat'></hr>
       </>

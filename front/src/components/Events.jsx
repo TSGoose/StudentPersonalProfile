@@ -1,35 +1,43 @@
-import React, { Component } from 'react'
+import React, { Component, useState, useEffect } from 'react'
 import EventBaner from './EventBaner'
 import EventCard from './EventCard'
-import EventButton from './EventButton'
 import '../css/Events.css'
+
+import { json } from 'react-router-dom'
 
 export default class Events extends Component {
   constructor(props) {
     super(props)
-  
+
     this.state = {
-       error: null,
-       isLoaded: false,
-       events: []
-    };
+      events: [
+        {
+          id: 1,
+          title: 'Космом - это фантастика!',
+          date: '19 апреля 2024',
+          time: '15:30',
+          place: 'СГТУ 25 корпус'
+        }
+      ]
+    }
+    //не получилось использовать стайт для рендера карточек мероприйтий
   }
-   componentDidMount(){
-    fetch("/events")
-    .then(res => res.json())
-    .then(
-      (result) => {
-        this.useState({
-          isLoaded: true,
-          events: result.event
-        });
-      }
+
+  /*const [events, setEvents] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:8080/events',{
+  }
     )
-   }
+      .then(response => response.json())
+      .then(data => {
+        setEvents(data);
+      })
+      .catch(error => console.error('Error fetching data: ', error));
+  }, []);*/
 
-  
-  render() {   
 
+  render() {
     return (
 
       <div className='events'>
@@ -42,7 +50,7 @@ export default class Events extends Component {
         </div>
 
         <div className="actual-events">
-          
+
           <div className="filter-list">
             <h1>Фильтр</h1>
             <form className='filter' action="submit">
@@ -76,14 +84,18 @@ export default class Events extends Component {
             </form>
 
             <div className="event-list">
-            <EventCard />
-            <EventCard />
-            <EventCard />
-            <EventCard />
-            <EventCard />
-            <EventCard />
+              {this.state.events.map((item) => {
+                <EventCard key={item.id} title={item.time} date={item.date} time={item.time} place={item.place} />
+              })}
+
+              <EventCard title='Космос - это фантастика!' date='15 апреля' time='15:30' place='СГТУ 25 корпус' />
+              <EventCard title='Хакатон Цифра' date='10 апреля' time='15:30' place='СГТУ 5 корпус' />
+              <EventCard title='Лекция Тинькофф' date='15 мая' time='15:30' place='СГТУ 25 корпус' />
+              <EventCard title='Эстафета' date='20 мая' time='15:30' place='СГТУ стадион' />
+              <EventCard title='Ораторский интенсив' date='21 мая' time='14:00' place='СГТУ ЦТС' />
+              <EventCard title='Концерт Balance Team' date='24 мая' time='15:30' place='СГТУ ЦТС' />
             </div>
-            
+
           </div>
         </div>
       </div>

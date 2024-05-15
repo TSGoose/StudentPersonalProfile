@@ -9,11 +9,11 @@ export default class EventCard extends Component {
             <div className='event-card'>
 
                 <img className="card-img" src={empty} alt="" />
-                <h1>Космос - это фантастика</h1>
+                <h1>{this.props.title}</h1>
                 <div className="card-discription">
-                    <p><i className='bx bx-calendar'></i> 19 апреля 2024</p>
-                    <p><i className='bx bxs-time' ></i> 15:30</p>
-                    <p><i className='bx bx-navigation'></i> СГТУ 25 корпус</p>
+                    <p><i className='bx bx-calendar'></i> {this.props.date}</p>
+                    <p><i className='bx bxs-time' ></i> {this.props.time}</p>
+                    <p><i className='bx bx-navigation'></i> {this.props.place}</p>
                     <EventButton />
                 </div>
 
