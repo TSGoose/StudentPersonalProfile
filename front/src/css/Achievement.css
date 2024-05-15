@@ -1,0 +1,78 @@
+.Achievement-big-card{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    margin-bottom: 20px
+}
+.AchievementCard-relativ{
+   position: relative; 
+}
+.AchievementCard{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background-color: #D2DFF7;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Achievement-Card-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.AchievementCard h1{
+    margin-top: 15px;
+    font-size: 30px;
+}
+.AchievementCard-2{
+    position: absolute;
+    margin-top: 0;
+    z-index: 100;
+    width: 290px;
+    height: 390px;
+    border-radius: 20px;
+    background-color: rgba(61, 60, 60, 0.295);
+}
+.card-achievement {
+    position: absolute;
+    width: 88%;
+    bottom: 95px;
+    font-size: 20px;
+    color: #1457D2;
+}
+.container{
+    position: absolute;
+    width: 88%;
+    bottom: 30px;
+    font-size: 20px;
+    color: #1457D2;
+}
+.label, .progress-bar, .progress-block  {
+    float: left;
+  }
+  .label {
+    margin-right: 50px;
+  }
+  .progress-block {
+    width: 23px;
+    height: 23px;
+    margin: 2px 1px;
+    background-color: #ffffff;
+  }
+  .progress-block.active {
+    background-color: #1457D2;
+  }
+
+  .left{
+    border-radius: 10px 0 0 10px;
+  }
+
+  .right{
+    border-radius: 0 10px 10px 0;
+  }
